@@ -1,0 +1,35 @@
+.js-toDoForm input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 10px 0px;
+  margin-top: 40px;
+  display: flex;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-shadow: rgb(48, 39, 9) 1px 0 10px;
+}
+
+.js-toDoForm ::placeholder {
+  font-size: 20px;
+  color: white;
+  font-kerning: auto;
+  text-shadow: rgb(48, 39, 9) 1px 0 10px;
+}
+
+.js-toDoForm input:focus {
+  outline: none;
+}
+
+.js-toDoList {
+  color: white;
+  text-shadow: rgb(48, 39, 9) 1px 0 10px;
+  font-size: 20px;
+}
+
+.js-toDoList button {
+  background: none;
+  border: none;
+}

@@ -10,14 +10,14 @@ const USER_LS = "currentUser",
 function paintGreeting(text) {
   form.classList.remove(SHOWING_CN);
   greeting.classList.add(SHOWING_CN);
-  greeting.innerText = `Hello ${text} Having a good day?`;
+  greeting.innerText = `Hello, ${text}. Having a good day?`;
 }
 
 function saveName(text) {
   localStorage.setItem(USER_LS, text);
 }
 
-function handleSubmit() {
+function handleSubmit(event) {
   event.preventDefault();
   const currentValue = input.value;
   paintGreeting(currentValue);

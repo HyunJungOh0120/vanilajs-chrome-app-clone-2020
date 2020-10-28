@@ -14,7 +14,7 @@ function getWeather(lat, lon) {
       const temperature = json.main.temp;
       const city = json.name;
       console.log(currentWeather);
-      weather.innerText = `${currentWeather} , ${temperature} at ${city}`;
+      weather.innerText = `${currentWeather} , ${temperature}℃ @ ${city}`;
     });
 }
 

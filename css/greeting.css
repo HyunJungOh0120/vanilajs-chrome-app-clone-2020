@@ -1,0 +1,29 @@
+.js-greetings {
+  color: white;
+  font-size: 40px;
+  text-shadow: rgb(48, 39, 9) 1px 0 10px;
+}
+
+.js-form input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 10px 0px;
+  margin-top: 40px;
+  display: flex;
+  width: 350px;
+  text-align: center;
+}
+
+.js-form ::placeholder {
+  color: white;
+  font-size: 30px;
+  font-kerning: auto;
+  text-shadow: rgb(48, 39, 9) 1px 0 10px;
+}
+
+.js-form input:focus {
+  outline: none;
+  font-size: 40px;
+  color: white;
+}

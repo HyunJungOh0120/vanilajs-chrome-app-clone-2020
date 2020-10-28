@@ -1,0 +1,10 @@
+.js-clock {
+  box-sizing: border-box;
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: rgb(48, 39, 9) 1px 0 10px;
+}
